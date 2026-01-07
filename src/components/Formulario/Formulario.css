@@ -1,0 +1,7 @@
+.field-input{
+    background-color: transparent !important;
+}
+
+.field-input:focus{
+    background-color: transparent !important;
+}
