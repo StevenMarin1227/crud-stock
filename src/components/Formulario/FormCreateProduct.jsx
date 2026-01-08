@@ -63,7 +63,7 @@ const FormCreateProduct = () => {
                         <Form>
                             <FormBs.Group className='mb-3'>
                                 <label htmlFor='name'>Nombre del Producto</label>
-                                <Field id='name' type='text' placeholder='Buzo' name='name' className='form-control field-input'/>
+                                <Field id='name' type='text' placeholder='nombre del producto' name='name' className='form-control field-input'/>
                                 {
                                     errors.name && touched.name &&(
                                         <ErrorMessage name='name' component='div'></ErrorMessage>
@@ -73,7 +73,7 @@ const FormCreateProduct = () => {
                             </FormBs.Group>
                             <FormBs.Group className='mb-3'>
                                 <label htmlFor='description'> Descripcion </label>
-                                <Field id='description' type='text' placeholder='Descrpción del producto' name='description'className='form-control field-input'/>
+                                <Field id='description' type='text' placeholder='descripcion del producto' name='description'className='form-control field-input'/>
                                 {
                                     errors.description && touched.description && ( <ErrorMessage name='description' component='div'></ErrorMessage>)
                                 }
